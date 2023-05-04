@@ -47,11 +47,6 @@
    <a> Optics Express 2023 </a> 
  </p>
 </h3> -->
-
-  
- <p align="center">
-  <img width="700" src="https://raw.githubusercontent.com/complight/autocolor_/main/schematic.png">
- </p> 
  
  <h2>
  <p align="center">
@@ -71,7 +66,12 @@ Multi-color holograms rely on simultaneous illumination from multiple light sour
 By using the Large Language Model (LLM) called GPT-4 via its online interface ChatGPT, we generate a series of detailed prompts with different keywords. We used a set of prompts to guide the generation process and developed a large dataset of images locally using text-to-image generation models and a super-resolution network. We estimated the depth information for the generated images using a monocular depth information network and optimized multi-color holograms and their light source powers using a HoloHDR optimization pipeline. The entire [dataset](https://github.com/complight/hologram_dataset/tree/main/diffusion) generation process was computationally intensive and took about ten days using multiple GPUs.
 
 #### Multi-color holograms
-We used [HoloHDR](https://complightlab.com/publications/holohdr) to generate multi-color holography and uses a CNN to estimate light source power from input images. The estimated light source powers are then used to optimize multi-color holograms using an existing pipeline. We validate the approach experimentally and show that AutoColor can significantly improve computational efficiency by reducing the optimization steps. We also developed a holographic display hardware prototype for quantitative evaluation and summarize our quantitative evaluation in the below figure.
+We used [HoloHDR](https://complightlab.com/publications/holohdr) to generate multi-color holography and uses a CNN to estimate light source power from input images. The estimated light source powers are then used to optimize multi-color holograms using an existing pipeline. We validate the approach experimentally and show that AutoColor can significantly improve computational efficiency by reducing the optimization steps. We also developed a holographic display hardware prototype for quantitative evaluation and summarize our quantitative evaluation in below.
+
+  
+ <p align="center">
+  <img width="700" src="https://raw.githubusercontent.com/complight/autocolor_/main/schematic.png">
+ </p> 
 
  <h2>
  <p align="center">
