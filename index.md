@@ -103,9 +103,9 @@ We demonstrate that this approach requires significantly fewer steps and can lea
 ## Relevant research works
 Here are relevant research works from the authors:
 
-- [HoloHDR: Multi-color Holograms Improve Dynamic Range](../holohdr)
-- [Realistic Defocus for Multiplane Computer-Generated Holography](../realistic_defocus_cgh)
-- [Optimizing Vision and Visuals: Lectures on Cameras, Displays, and Perception](../teaching/siggraph2022_optimizing_vision_and_visuals/)
+- [HoloHDR: Multi-color Holograms Improve Dynamic Range](https://complightlab.com/publications/holohdr/)
+- [Realistic Defocus for Multiplane Computer-Generated Holography](https://complightlab.com/publications/realistic_defocus_cgh/)
+- [Optimizing Vision and Visuals: Lectures on Cameras, Displays, and Perception](https://complightlab.com/teaching/siggraph2022_optimizing_vision_and_visuals/)
 - [Odak](https://github.com/kunguz/odak)
 
 
