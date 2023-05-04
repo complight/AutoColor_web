@@ -50,7 +50,7 @@
 
   
  <p align="center">
-  <img width="700" src="https://github.com/complight/autocolor_/blob/main/schematic.png">
+  <img width="700" src="https://github.com/complight/autocolor_/blob/main/schematic.png?raw=true">
  </p> 
  
  <h2>
