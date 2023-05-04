@@ -50,7 +50,7 @@
 
   
  <p align="center">
-  <img width="700" src="https://github.com/complight/autocolor/raw/master/media/schematic.png">
+  <img width="700" src="https://github.com/complight/autocolor_/blob/main/schematic.png">
  </p> 
  
  <h2>
@@ -84,7 +84,7 @@ We also developed a holographic display hardware prototype for quantitative eval
 We demonstrate that this approach requires significantly fewer steps and can lead to holograms with wide dynamic ranges at interactive rates. The approach is validated through experimental analysis, and we suggest that AutoColor represents a promising research frontier for future hologram development.
 <br />
  <p align="center">
-  <img width="900" src="https://github.com/complight/manuscript_autocolor/blob/main/figures/result.png">
+  <img width="900" src="https://github.com/complight/autocolor_/blob/main/result.png">
  </p> 
 
 
