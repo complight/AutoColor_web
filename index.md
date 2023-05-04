@@ -110,7 +110,6 @@ Here are relevant research works from the authors:
 
 
 ## Contact Us
-!!! Warning
     Please reach us through [email](mailto:k.aksit@ucl.ac.uk) to provide your feedback and comments.
 
 ## Acknowledgements
