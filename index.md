@@ -1,4 +1,4 @@
-
+#
 
 <h1 align="center">AutoColor: Learned Light Power Control for Multi-Color Holograms</h1>
 
