@@ -114,7 +114,7 @@ Here are relevant research works from the authors:
 
 ## Acknowledgements
 Kaan Akşit, Koray Kavaklı and Yicheng Zhan are supported by the Royal Society’s RGS/R2/212229
-- Research Grants 2021 Round 2 and Meta Reality Labs inclusive rendering initiative 2022. 
+Research Grants 2021 Round 2 and Meta Reality Labs inclusive rendering initiative 2022. 
 
 Hakan Urey
 is supported by the European Innovation Council’s HORIZON-EIC-2021-TRANSITION-CHALLENGES
