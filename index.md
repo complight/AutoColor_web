@@ -7,7 +7,7 @@
   <img width ="12%" src="https://complightlab.com/people/yicheng_zhan.png">
   <img width ="12%" src="https://complightlab.com/people/koray_kavakli.png">
   <img width ="12%" src="https://github.com/complight/complight.github.io/blob/master/docs/people/hakan_urey.png?raw=true">
-  <img width ="12%" src="https://github.com/complight/manuscript_autocolor/blob/webpage/qi_sun.png">
+  <img width ="12%" src="https://github.com/complight/autocolor_/blob/main/qi_sun.png">
   <img width ="12%" src="https://user-images.githubusercontent.com/46696280/214999478-ea45353d-3704-4290-8e90-10c747887253.png">
  </p>
 
