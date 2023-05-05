@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>AutoColor: Learned Light Power Control for Multi-Color Holograms</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">AutoColor: Learned Light Power Control for Multi-Color Holograms</h1>
+          
+
+            <img width ="12%" src="https://complightlab.com/people/yicheng_zhan.png">
+            <img width ="12%" src="https://complightlab.com/people/koray_kavakli.png">
+            <img width ="12%" src="https://github.com/complight/complight.github.io/blob/master/docs/people/hakan_urey.png?raw=true">
+            <img width ="12%" src="https://raw.githubusercontent.com/complight/autocolor_/main/qi_sun.png">
+            <img width ="12%" src="https://user-images.githubusercontent.com/46696280/214999478-ea45353d-3704-4290-8e90-10c747887253.png">
+           
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://github.com/AlberTgarY">Yicheng Zhan</a><sup>1,*</sup> |</span>
+            <span class="author-block">
+              <a href="https://github.com/KorayKavakli">Koray Kavakli</a><sup>1,2</sup> |</span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/hakan-%C3%BCrey-1386a9a/?originalSubdomain=tr">Hakan Ürey</a><sup>2</sup> |
+            </span>
+            <span class="author-block">
+              <a href="https://engineering.nyu.edu/faculty/qi-sun">Qi Sun</a><sup>3</sup> |
+            </span>
+            <span class="author-block">
+              <a href="https://kaanaksit.com/">Kaan Akşit</a><sup>1,*</sup> 
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University College London,</span>
+            <span class="author-block"><sup>2</sup>Koc University</span>
+            <span class="author-block"><sup>3</sup>New York University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2305.01611"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/complight/autocolor"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/complight/hologram_dataset/tree/main/diffusion"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Multi-color holograms rely on simultaneous illumination from multiple light sources. These multi-color holograms could utilize light sources better than conventional single-color holograms 
+            and can improve the dynamic range of holographic displays. In this letter, we introduce AutoColor, the first learned method for estimating the optimal light source powers required for 
+            illuminating multi-color holograms. For this purpose, we establish the first multi-color hologram dataset using synthetic images and their depth information. We generate these synthetic 
+            images using a trending pipeline combining generative, large language, and monocular depth estimation models. Finally, we train our learned model using our dataset and experimentally 
+            demonstrate that AutoColor significantly decreases the number of steps required to optimize multi-color holograms from > 1000 to 70 iteration steps without compromising image quality.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!--/ Matting. -->
+
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Methodology</h2>
+        <h3 class="title is-4">Generative model and large language model</h3>
+        <div class="content has-text-justified">
+           <p>
+            By using the Large Language Model (LLM) called GPT-4 via its online interface ChatGPT, 
+            we generate a series of detailed prompts with different keywords. We used a set of prompts
+             to guide the generation process and developed a large dataset of images locally using 
+             text-to-image generation models and a super-resolution network. We estimated the depth 
+             information for the generated images using a monocular depth information network and optimized
+              multi-color holograms and their light source powers using a HoloHDR optimization pipeline. 
+              The entire <a href="https://github.com/complight/hologram_dataset/tree/main/diffusion">dataset</a>
+              generation process was computationally intensive and took about ten days using multiple GPUs.
+          </p>
+        </div>
+        <h3 class="title is-4">Multi-color holograms</h3>
+            <p>We used <a href="https://complightlab.com/publications/holohdr">HoloHDR</a> to generate multi-color holography 
+                and uses a CNN to estimate light source power from input images. The estimated light source powers 
+                are then used to optimize multi-color holograms using an existing pipeline. We validate the approach 
+                experimentally and show that AutoColor can significantly improve computational efficiency by reducing 
+                the optimization steps. We also developed a holographic display hardware prototype for quantitative evaluation 
+                and summarize our quantitative evaluation in below.
+            </p>
+            <br \>
+
+          <div class="has-text-centered">
+            <img width="700" src="https://raw.githubusercontent.com/complight/autocolor_/main/schematic.png"
+                 class="interpolation-image"
+                 alt="schematic.png"/>
+            <p class="is-bold">Shematic Figure</p>
+          </div>
+       
+        <br/>
+        <!--/ Interpolating. -->
+
+        <!-- Re-rendering. -->
+        <h2 class="title is-3">Result</h2>
+        <div class="content has-text-justified">
+          <p>
+            We demonstrate that this approach requires significantly fewer steps and can lead to holograms with wide dynamic
+             ranges at interactive rates. The approach is validated through experimental analysis, and we suggest that AutoColor 
+             represents a promising research frontier for future hologram development.
+          </p>
+        </div>
+        <div class="has-text-centered">
+            <img src="https://github.com/complight/autocolor_/blob/main/result.png?raw=true"
+                 class="interpolation-image"
+                 alt="result.png"/>
+            <p class="is-bold">Quantitative Evaluation</p>
+          </div>
+        <!--/ Re-rendering. -->
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+
+    <!-- Concurrent Work. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-4">Related Links</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            <a href="https://complightlab.com/publications/holobeam/">- HoloBeam: Paper-Thin Near-Eye Displays</a> 
+          </p>
+          <p>
+            <a href="https://complightlab.com/publications/holohdr/">- HoloHDR: Multi-color Holograms Improve Dynamic Range</a>
+          </p>
+          <p>
+            <a href="https://complightlab.com/publications/realistic_defocus_cgh/">- Realistic Defocus for Multiplane Computer-Generated Holography</a> 
+          </p>
+          <p>
+            <a href="https://complightlab.com/teaching/siggraph2022_optimizing_vision_and_visuals/">- Optimizing Vision and Visuals: Lectures on Cameras, Displays, and Perception</a>
+          </p>
+          <p>
+            <a href="https://github.com/kunguz/odak">- Odak</a> 
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-4">Contact Us</h2>
+          <div class="content has-text-justified">
+            Please reach us through <a href = "mailto:k.aksit@ucl.ac.uk">email</a> to provide your feedback and comments.
+        </div>
+        </div>
+      </div>
+    
+    <div class="columns is-centered">
+        <div class="column is-full-width">
+            <h2 class="title is-4">Acknowledgements</h2>
+            <div class="content has-text-justified">
+                <p>
+                    <i>Kaan Akşit</i>, Koray Kavaklı</i> and <i>Yicheng Zhan</i> are supported by the Royal Society’s RGS/R2/212229
+                    Research Grants 2021 Round 2 and Meta Reality Labs inclusive rendering initiative 2022. 
+                </p>
+                <p>
+                    <i>Hakan Urey</i>
+                    is supported by the European Innovation Council’s HORIZON-EIC-2021-TRANSITION-CHALLENGES
+                    program Grant Number 101057672 and Tübitak’s 2247-A National Lead Researchers Program, Project Number 120C145. 
+                </p>
+                <p>
+                    <i>Qi Sun</i> is partially supported by the National Science Foundation (NSF) research grants #2225861 and #2232817.
+                </p>
+            </div>
+        </div>
+    </div>
+
+  
+
+  <div class="container is-max-desktop content">
+        <h2 class="title is-4">BibTeX</h2>
+        <pre><code>@misc{zhan2023autocolor,
+title={AutoColor: Learned Light Power Control for Multi-Color Holograms}, 
+author={Yicheng Zhan and Koray Kavaklı and Hakan Urey and Qi Sun and Kaan Akşit},
+year={2023},
+eprint={2305.01611},
+archivePrefix={arXiv},
+primaryClass={cs.CV}
+}</code>
+        </pre>
+    </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://github.com/AlberTgarY" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/complight/autocolor">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
