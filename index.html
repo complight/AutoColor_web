@@ -50,6 +50,7 @@
           
 
             <img width ="12%" src="https://complightlab.com/people/yicheng_zhan.png">
+            <img width ="12%" src="https://complightlab.com/people/koray_kavakli.png">
             <img width ="12%" src="https://github.com/complight/complight.github.io/blob/master/docs/people/hakan_urey.png?raw=true">
             <img width ="12%" src="https://raw.githubusercontent.com/complight/autocolor_/main/qi_sun.png">
             <img width ="12%" src="https://user-images.githubusercontent.com/46696280/214999478-ea45353d-3704-4290-8e90-10c747887253.png">
@@ -58,6 +59,8 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://github.com/AlberTgarY">Yicheng Zhan</a><sup>1,*</sup> |</span>
+            <span class="author-block">
+              <a href="https://github.com/KorayKavakli">Koray Kavakli</a><sup>1,2</sup> |</span>
             <span class="author-block">
               <a href="https://www.linkedin.com/in/hakan-%C3%BCrey-1386a9a/?originalSubdomain=tr">Hakan Ürey</a><sup>2</sup> |
             </span>
@@ -79,7 +82,7 @@
 
           </div>
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><b>SPIE AR|VR|MR 2024</b></span>
+            <span class="author-block"><b><a href="https://spie.org/conferences-and-exhibitions/ar-vr-mr/attend">SPIE AR|VR|MR 2024</a></b></span>
           </div>
           <div class="column has-text-centered">
             <div class="publication-links">
@@ -179,13 +182,13 @@
              to guide the generation process and developed a large dataset of images locally using 
              text-to-image generation models and a super-resolution network. We estimated the depth 
              information for the generated images using a monocular depth information network and optimized
-              multi-color holograms and their light source powers using a HoloHDR optimization pipeline. 
+              multi-color holograms and their light source powers using a Multi-color optimization pipeline. 
               The entire <a href="https://github.com/complight/hologram_dataset/tree/main/diffusion">dataset</a>
               generation process was computationally intensive and took about ten days using multiple GPUs.
           </p>
         </div>
         <h3 class="title is-4">Multi-color holograms</h3>
-            <p>We used <a href="https://complightlab.com/publications/holohdr">HoloHDR</a> to generate multi-color holography 
+            <p>We used <a href="https://complightlab.com/publications/multi_color">Multi-color</a> to generate multi-color holography 
                 and uses a CNN to estimate light source power from input images. The estimated light source powers 
                 are then used to optimize multi-color holograms using an existing pipeline. We validate the approach 
                 experimentally and show that AutoColor can significantly improve computational efficiency by reducing 
@@ -236,7 +239,7 @@
             <a href="https://complightlab.com/publications/holobeam/">- HoloBeam: Paper-Thin Near-Eye Displays</a> 
           </p>
           <p>
-            <a href="https://complightlab.com/publications/holohdr/">- HoloHDR: Multi-color Holograms Improve Dynamic Range</a>
+            <a href="https://complightlab.com/publications/multi_color/">- Multi-color Holograms Improve Brightness in Holographic Displays</a>
           </p>
           <p>
             <a href="https://complightlab.com/publications/realistic_defocus_cgh/">- Realistic Defocus for Multiplane Computer-Generated Holography</a> 
@@ -266,7 +269,7 @@
             <h2 class="title is-4">Acknowledgements</h2>
             <div class="content has-text-justified">
                 <p>
-                    <i>Kaan Akşit</i>, and <i>Yicheng Zhan</i> are supported by the Royal Society’s RGS/R2/212229
+                    <i>Kaan Akşit</i>, <i>Koray Kavaklı</i> and <i>Yicheng Zhan</i> are supported by the Royal Society’s RGS/R2/212229
                     Research Grants 2021 Round 2 and Meta Reality Labs inclusive rendering initiative 2022. 
                 </p>
                 <p>
@@ -285,14 +288,22 @@
 
   <div class="container is-max-desktop content">
         <h2 class="title is-4">BibTeX</h2>
-        <pre><code>@misc{zhan2023autocolor,
-title={AutoColor: Learned Light Power Control for Multi-Color Holograms}, 
-author={Yicheng Zhan and Koray Kavaklı and Hakan Urey and Qi Sun and Kaan Akşit},
-year={2023},
-eprint={2305.01611},
-archivePrefix={SPIE 2024},
-primaryClass={cs.CV}
-}</code>
+        <pre><code>@article{zhan2024autocolor,
+  abbr={SPIE AR/VR/MR},
+  bibtex_show={true},
+  selected={true},
+  title={AutoColor: Learned Light Power Control for Multi-Color Holograms},
+  author={Zhan, Yicheng and Kavakl{\i}, Koray and Urey, Hakan and Sun, Qi and Akşit, Kaan},
+  journal={SPIE},
+  year={2024},
+  month=Jan,
+  arxiv={2305.01611},
+  html={https://complightlab.com/autocolor_},
+  pdf={ZhanEtAl_OpticsLetters2023_Autocolor_learned_light_power_control_for_multi_color_holograms.pdf},
+  code={https://github.com/complight/autocolor},
+  preview={autocolor.png},
+  doi={https://doi.org/10.48550/arXiv.2305.01611}
+} </code>
         </pre>
     </div>
     </div>
